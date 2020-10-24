@@ -4,4 +4,8 @@ let isUser: boolean = true;
 let user;
 let lastName = "Mike";
 
-console.log(firstName, age, isUser, lastName);
+let numString: string = "20";
+let num: number = <number>(<any>numString);
+
+console.log(firstName, age, isUser, lastName, numString, num);
+console.log(typeof num);
